@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body{
+    background-color: white;
+    margin: 2px;
+}
+
+header{
+    padding: 10px 0 10px;
+    height: 50px;
+    border-bottom: 2px solid;
+    background-color: ;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-image-items{
+    height: 30px;
+}
+
+#image-bel-bella{
+    height: 400px;
+    border-radius: 10px;
+}
+
+.main-content{
+    margin: 40px 0 0 0;
+}
+
+
+#apresentation{
+    display: flex;
+    width: 50vh;
+    height: 500px;
+
+}
+
+#apresentation p{
+    padding: 100px;
+   
+}
+
+#products{
+    display: flex;
+}
+
+#products h2{
+    align-items: center;
+}
