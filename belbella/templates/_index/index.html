@@ -4,34 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boutique Bel Bella Modas</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='_css/index.css') }}">
+    <link rel="stylesheet" href="../../static/_css/index.css">
     <link rel="script" href="{{ url_for('static', filename='_script/script.js') }}">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-</head>
 <body>
-    <header class="cabecalho">
-        <ul>
-            <li>
-                <img class="menu-image-items" src="{{ url_for('static', filename='_imagens/menu_toggle.svg') }}" alt="Menu">
-                <h2>Bel Bella Modas</h2>
-                <img class="menu-image-items" src="{{ url_for('static', filename='_imagens/392531_account_friend_human_man_member_icon.svg') }}" alt="Profile">
-            </li>
-        </ul>
+    <header>
+        <nav class="nav-bar">
+            <a href=""><img class="header-icon" src="../../static/_imagens/Ícone Rose.png" alt="Imagem logo Bel bella"></a>
+            <li><a href="">Home</a></li>
+            <li><a href="">Produtos</a></li>
+            <li><a href="">Sobre nós</a></li>
+            <li><a href="">Fale conosco</a></li>
+        </nav>
     </header>
-    <main class="main-content">
-        <div id="apresentation">
-            <img id="image-bel-bella" src="{{ url_for('static', filename='_imagens/image_bel_bella.jpg') }}" alt="">
-            <p><strong>A sua moda você encontra aqui!</strong></p>
-        </div>
-        <div id="products">
-            <h2>Vejam os nossos produtos:</h2>
+    <main class="conteudo-principal">
+        <div class="apresentacao">
+            
         </div>
     </main>
-    <footer>
-        <div class="social-medias-footer">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
-    </footer>
 </body>
 </html>
